@@ -8,7 +8,7 @@ menu: { main: { parent: "task-syntax", weight: 11 } }
 ## RunDeps attribute
 
 By default, the dependencies of a task are run sequentially, in the order they are listed.  
-However we may prefer for all the dependencies of a task to be run in paralled.
+However we may prefer for all the dependencies of a task to be run in parallel.
 
 The solution would be to set the `RunDeps` attribute to `async` (defaults to `sync`).
 

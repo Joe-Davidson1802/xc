@@ -1,6 +1,6 @@
 ---
 title: "Community"
-description: Contrubutions from the community.
+description: Contributions from the community.
 linkTitle: "Community"
 menu: { main: {  weight: 11 } }
 ---
