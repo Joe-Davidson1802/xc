@@ -13,7 +13,7 @@ The `requires` attribute can be used to define tasks that should be run prior to
 
 For example, you want to run a task to deploy your code, but you want to run all the unit tests and linters before that happens.
 
-Before the command section of the task, you may define comma seperated dependencies with `requires:` or `req:` followed by the name of the tasks that are dependencies.
+Before the command section of the task, you may define comma separated dependencies with `requires:` or `req:` followed by the name of the tasks that are dependencies.
 
 ````markdown
 ## Tasks

@@ -130,7 +130,7 @@ const (
 	// AttributeTypeInp sets the required inputs for a Task, inputs can be provided
 	// as commandline arguments or environment variables.
 	AttributeTypeInp
-	// AttrubuteTypeRun sets the tasks requiredBehaviour, can be always or once.
+	// AttributeTypeRun sets the tasks requiredBehaviour, can be always or once.
 	// Default is always
 	AttributeTypeRun
 	// AttributeTypeRunDeps sets the tasks dependenciesBehaviour, can be sync or async.
