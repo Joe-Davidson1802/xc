@@ -25,6 +25,7 @@ linters:
     - nolintlint
     - staticcheck
     - stylecheck
+    - tenv
     - typecheck
     - unconvert
     - unparam

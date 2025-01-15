@@ -3,7 +3,6 @@ package run
 import (
 	"context"
 	"errors"
-	"os"
 	"sync"
 	"testing"
 
@@ -272,8 +271,7 @@ func TestRunWithInputs(t *testing.T) {
 		if err != nil {
 			t.Fatal(err)
 		}
-		os.Setenv("FOO", "BAR")
-		defer os.Unsetenv("FOO")
+		t.Setenv("FOO", "BAR")
 		scriptRunner := &mockScriptRunner{}
 		runner.scriptRunner = scriptRunner
 		err = runner.Run(context.Background(), "task", nil)
